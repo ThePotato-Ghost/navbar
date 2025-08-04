@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navdiv {
+            display: flex;
+            justify-content: space-between;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.11);
+        }
+        .navdiv ul {
+            margin-right: 20px;
+            /* border: solid; */
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            list-style-type: none;
+            font-size: 1.29rem;
+        }
+        .navdiv ul li a {
+            text-decoration: none;
+            padding: 20px;
+            color: black;
+            font-family: "Mozilla Headline", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:
+              "wdth" 100;
+        }
+        .navdiv ul li a:hover {
+            color: rgb(0, 0, 0);
+            border-radius: 10px;
+            background-color: hsl(0, 0%, 98%);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navdiv">
+            <a href="navbar2.html" class="Logo"><img src="Navbar2Logo.png"></a>
+            <ul>
+                <li><a href="navbar.html">Navbar 1</a></li>
+                <li><a href="#">Navbar 3</a></li>
+                <li><a href="#">Navbar 4</a></li>
+                <li><a href="#">Navbar 5</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
